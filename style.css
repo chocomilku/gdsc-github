@@ -23,6 +23,11 @@ body {
 	animation: fadeIn 0.75s ease-out forwards;
 }
 
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+
 .accent {
 	color: #54a9e9;
 }
