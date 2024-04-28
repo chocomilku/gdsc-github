@@ -17,3 +17,7 @@ This is a repository to put on the learnings gained from the Study Session last 
 ## Credits
 
 [Jersery 25](https://github.com/scfried/soft-type-jersey) font is licensed under SIL Open Font License, Version 1.1. https://openfontlicense.org/
+
+## License
+
+[MIT](https://github.com/chocomilku/gdsc-github/blob/main/LICENSE.txt)
