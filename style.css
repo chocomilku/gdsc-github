@@ -19,3 +19,13 @@ body {
 .text {
 	text-align: center;
 }
+
+#main-container {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	padding: 3rem;
+}
