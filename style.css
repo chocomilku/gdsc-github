@@ -18,6 +18,7 @@ body {
 
 .text {
 	text-align: center;
+	color: #fff;
 }
 
 #main-container {
@@ -28,6 +29,15 @@ body {
 
 .container {
 	padding: 3rem;
+}
+
+.bg {
+	background: rgb(142, 5, 198);
+	background: radial-gradient(
+		circle,
+		rgba(142, 5, 198, 1) 0%,
+		rgba(26, 9, 50, 1) 100%
+	);
 }
 
 .header {
