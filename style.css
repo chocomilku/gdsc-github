@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Jersey 25", monospace, sans-serif;
+}
+
+.text {
+	text-align: center;
+	color: #fff;
+	text-shadow: -4px 3px 1px rgba(35, 35, 35, 0.25);
+	animation: fadeIn 0.75s ease-out forwards;
+}
+
+.accent {
+	color: #54a9e9;
+}
+
+#main-container {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	padding: 3rem;
+}
+
+.bg {
+	background: rgb(142, 5, 198);
+	background: radial-gradient(
+		circle,
+		rgba(142, 5, 198, 1) 0%,
+		rgba(26, 9, 50, 1) 100%
+	);
+}
+
+.header {
+	font-size: 4rem;
+}
+
+.small {
+	font-size: 0.8rem;
+}
+
+.medium {
+	font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
