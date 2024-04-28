@@ -19,6 +19,11 @@ body {
 .text {
 	text-align: center;
 	color: #fff;
+	text-shadow: -4px 3px 1px rgba(35, 35, 35, 0.25);
+}
+
+.accent {
+	color: #54a9e9;
 }
 
 #main-container {
