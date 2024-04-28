@@ -29,3 +29,15 @@ body {
 .container {
 	padding: 3rem;
 }
+
+.header {
+	font-size: 4rem;
+}
+
+.small {
+	font-size: 0.8rem;
+}
+
+.medium {
+	font-size: 0.9rem;
+}
